@@ -1,0 +1,10 @@
+[project]
+name = "hwl-learn-claude-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.107.1",
+    "dotenv>=0.9.9",
+]

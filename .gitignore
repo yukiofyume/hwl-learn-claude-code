@@ -1,0 +1,70 @@
+# === Python 通用 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === 虚拟环境 (uv/venv/pipenv/poetry) ===
+.venv/
+venv/
+env/
+ENV/
+.pvenv/
+**/__pypackages__/
+
+# === pyenv 本地版本文件 ===
+.python-version
+
+# === 环境变量文件（密钥、配置，严禁提交）===
+.env
+.env.local
+.env.*.local
+
+# === VSCode / IDE ===
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === 日志、缓存、临时文件 ===
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === 编译/打包产物 ===
+*.pyd
+*.pyx
+*.c
+*.o
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# === macOS 系统文件 ===
+.AppleDouble
+.LSOverride
+._*
